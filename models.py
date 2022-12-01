@@ -1,0 +1,31 @@
+import datetime
+from alembic import op
+from main import User, Category, Hall, Film, Schedule, Cinema, Session
+
+session = Session()
+# user1 = User(idUser=1, userName='drousk.b', firstName="Bohdan", secondName="Drushkevych", email="droush.k@gmail.com", password="password", phone="0000000000")
+# user2 = User(idUser=2, userName='kindrak_2004', firstName="Roman", secondName="Kindrat", email="examkle@gmail.com", password="password2", phone="0000000001")
+# category1 = Category(idCategory=6, category='comedy')
+#category2 = Category(idCategory=5, category='fantasy')
+# hall1 = Hall(idHall=4, hall_number=1, capacity=50, status='available')
+# hall2 = Hall(idHall=5, hall_number=3, capacity=80, status='unavailable')
+# film1 = Film(idFilm=3, name="Kingsman", duration=100, photo='jashfgkjhipuahfsfhkjsdhfiuhiuhfkjhfuishf', id_idCategory='2')
+# film2 = Film(idFilm=4, name="Home Alone", duration=100, photo='tyiashfdhtreyertueryiyetiytietikjhfuishf', id_idCategory='1')
+# schedule1 = Schedule(idSchedule=4, date='2022-10-30 17:15', id_idFilm=1, id_idHall=1)
+# schedule2 = Schedule(idSchedule=5, date='2022-10-30 10:30', id_idFilm=1, id_idHall=2)
+# schedule3 = Schedule(idSchedule=6, date='2022-10-30 13:00', id_idFilm=2, id_idHall=2)
+# сinema1 = Cinema(idCinema=1, name='Multiplex', address="Bandery 1")
+
+# session.add(user1)
+# session.add(user2)
+# session.add(category1)
+#ession.add(category2)
+# session.add(hall1)
+# session.add(hall2)
+# session.add(film1)
+# session.add(film2)
+# session.add(schedule1)
+# session.add(schedule2)
+# session.add(schedule3)
+# session.add(сinema1)
+session.commit()
